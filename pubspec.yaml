@@ -1,0 +1,170 @@
+name: descomplica_app
+description: Aplicativo de finanças pessoais com controle completo de transações
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  cloud_functions: ^4.5.0
+  
+  # Autenticação
+  google_sign_in: ^6.1.5
+  
+  # Gerenciamento de Estado
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  equatable: ^2.0.5
+  
+  # Injeção de Dependência
+  get_it: ^7.6.4
+  
+  # UI e Gráficos
+  fl_chart: ^0.65.0
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.6.0
+  google_fonts: ^6.1.0
+  
+  # Cache Local
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # HTTP e APIs
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # Utilitários
+  intl: ^0.18.1
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Testes
+  mockito: ^5.4.3
+  build_runner: ^2.4.6
+  
+  # Linting
+  flutter_lints: ^3.0.1
+  
+  # Code Generation
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Adicione assets se necessário
+  # assets:
+  #   - assets/images/
+  #   - assets/google_logo.png
+
+  # Fontes customizadas (opcional - Google Fonts já carrega)
+  # fonts:
+  #   - family: Montserrat
+  #     fonts:
+  #       - asset: fonts/Montserrat-Regular.ttf
+  #       - asset: fonts/Montserrat-Bold.ttf
+  #         weight: 700
+
+
+# ==========================================
+# analysis_options.yaml
+# Configurações de análise de código
+# ==========================================
+
+# include: package:flutter_lints/flutter.yaml
+# 
+# linter:
+#   rules:
+#     # Boas práticas
+#     - prefer_const_constructors
+#     - prefer_const_literals_to_create_immutables
+#     - avoid_print
+#     - prefer_single_quotes
+#     - sort_constructors_first
+#     - always_declare_return_types
+#     - require_trailing_commas
+#     
+#     # Segurança
+#     - avoid_dynamic_calls
+#     - avoid_empty_else
+#     - avoid_returning_null_for_void
+#     
+# analyzer:
+#   exclude:
+#     - "**/*.g.dart"
+#     - "**/*.freezed.dart"
+#   errors:
+#     invalid_annotation_target: ignore
+
+
+# ==========================================
+# .gitignore
+# Arquivos que não devem ser commitados
+# ==========================================
+
+# Miscellaneous
+# *.class
+# *.log
+# *.pyc
+# *.swp
+# .DS_Store
+# .atom/
+# .buildlog/
+# .history
+# .svn/
+# migrate_working_dir/
+# 
+# # IntelliJ related
+# *.iml
+# *.ipr
+# *.iws
+# .idea/
+# 
+# # Visual Studio Code related
+# .vscode/
+# 
+# # Flutter/Dart/Pub related
+# **/doc/api/
+# **/ios/Flutter/.last_build_id
+# .dart_tool/
+# .flutter-plugins
+# .flutter-plugins-dependencies
+# .packages
+# .pub-cache/
+# .pub/
+# /build/
+# 
+# # Symbolication related
+# app.*.symbols
+# 
+# # Obfuscation related
+# app.*.map.json
+# 
+# # Android Studio related
+# /android/app/debug
+# /android/app/profile
+# /android/app/release
+# 
+# # Firebase
+# /android/app/google-services.json
+# /ios/Runner/GoogleService-Info.plist
+# /lib/firebase_options.dart
+# 
+# # Environment variables
+# .env
+# .env.local
+# 
+# # Cloud Functions
+# /functions/node_modules/
+# /functions/.env

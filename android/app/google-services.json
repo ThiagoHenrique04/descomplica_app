@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214584026863",
+    "project_id": "descomplica-app-8bd6f",
+    "storage_bucket": "descomplica-app-8bd6f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214584026863:android:529250c37f79e83b341d1a",
+        "android_client_info": {
+          "package_name": "com.example.descomplica_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNaVZBcuNUwp-fZWQxUgtJqijc9n8md24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
